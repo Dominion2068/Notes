@@ -1,19 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import matplotlib
-import matplotlib.pyplot as plt
 from PIL import Image
-from streamlit_player import st_player
 import json
 import requests
-from streamlit_lottie import st_lottie
-import io
-from datetime import date
-from datetime import datetime
-from platform import python_version
-from streamlit_ace import st_ace
+
+
 
 icon = Image.open('icon.png')
 st.set_page_config(layout = 'wide', page_title="Rython",page_icon= icon)
